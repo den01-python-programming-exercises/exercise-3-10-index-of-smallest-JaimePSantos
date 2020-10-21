@@ -9,11 +9,10 @@ def main():
       if(number==-1):
         break
       intList.append(number)
-      if(min1>=intList[index]):
-        min1 = intList[index]
-      index+=1
-
     
+    for i in range(len(intList)):
+      if(intList[i]<min1):
+        min1 = intList[i]
     print("Smallest number: %s"%min1)
 
     for i in range(len(intList)):
