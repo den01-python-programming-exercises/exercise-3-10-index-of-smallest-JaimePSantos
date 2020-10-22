@@ -6,7 +6,7 @@ def main():
 
     while(True):
       numberStr = input()
-      if(numberStr=="-1"):
+      if(numberStr=="9999"):
         break
       intList.append(numberStr)
     
